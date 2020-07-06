@@ -1,0 +1,38 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+ display: flex;
+ /* flex-wrap: wrap-reverse; */
+ /* flex-direction: row; */
+ /* align-items: center;
+ justify-content: space-between;
+ align-content: space-around; */
+}
+
+.box {
+  width: 150px;
+  height: 60px;
+  margin: 5px;
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
+  /* flex: 1; */
+}
+.red {
+  background-color: #f00;
+  order: 3;
+}
+
+.green {
+  background-color: #0f0;
+  order: 2;
+}
+
+.blue{
+  background-color: #00f;
+  order: 0;
+}
